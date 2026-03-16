@@ -1,0 +1,5 @@
+# Set default behavior to automatically normalize line endings:
+* text=auto
+
+# Force LF line endings for bash scripts to ensure compatibility on Unix/Linux:
+*.sh text eol=lf

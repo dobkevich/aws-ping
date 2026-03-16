@@ -58,6 +58,10 @@ Run the script directly from your terminal:
 - **Failover**: If a region blocks ICMP on DynamoDB, the script immediately attempts the EC2 endpoint.
 - **Sorting**: All results are sorted numerically by latency. Regions that timeout are pushed to the bottom.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Example Output
 
 ```text
@@ -71,3 +75,7 @@ Germany, Frankfurt               eu-central-1              53.152 ms
 Least Latency:
 eu-central-2
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
